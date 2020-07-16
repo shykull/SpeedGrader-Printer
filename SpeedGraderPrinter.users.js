@@ -9,19 +9,10 @@
 (function() {
   'use strict';
   var assocRegex = new RegExp('^/(course|account)s/([0-9]+)/gradebook/speed_grader$');
-  var errors = [];
-  var outcomes = [];
-  var pendingOutcomes = 0;
-  var criteria = [];
-  var rubricTitle;
-  var rubricAssociation;
 
   if (assocRegex.test(window.location.pathname)) {
     add_button();
   }
-
-
-
 
   function add_button() {
     var parent = document.querySelector('div#speedgrader-icons');
