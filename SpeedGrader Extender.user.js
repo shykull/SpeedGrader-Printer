@@ -26,14 +26,14 @@
   function add_button() {
     var parent = document.querySelector('div#speedgrader-icons');
     if (parent) {
-      var el = parent.querySelector('#jj_rubric');
-      var el1 = parent.querySelector('#jj_rubric1');
-      var el2 = parent.querySelector('#jj_rubric2');
+      var el = parent.querySelector('#SG_Print');
+      var el1 = parent.querySelector('#SG_Print1');
+      var el2 = parent.querySelector('#SG_Print2');
 
       if (!el) {
         el = document.createElement('a');
         el.classList.add('Button', 'Button--icon-action');
-        el.id = 'jj_rubric';
+        el.id = 'SG_Print';
         var icon = document.createElement('i');
         icon.classList.add('icon-add');
         el.appendChild(icon);
@@ -46,7 +46,7 @@
       if (!el1) {
         el1 = document.createElement('a');
         el1.classList.add('Button', 'Button--icon-action');
-        el1.id = 'jj_rubric1';
+        el1.id = 'SG_Print1';
         var icon1 = document.createElement('i');
         icon1.classList.add('icon-printer');
         el1.appendChild(icon1);
@@ -59,7 +59,7 @@
       if (!el2) {
         el2 = document.createElement('a');
         el2.classList.add('Button', 'Button--icon-action');
-        el2.id = 'jj_rubric2';
+        el2.id = 'SG_Print2';
         var icon2 = document.createElement('i');
         icon2.classList.add('icon-printer');
         el2.appendChild(icon2);
