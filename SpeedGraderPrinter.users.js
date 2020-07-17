@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name        SpeedGrader Printer
+// @namespace   https://github.com/shykull/SpeedGrader-Printer/
 // @description SpeedGrader page extender and printer for quizzes.
+// @author      Joseph Liu (shykull@gmail.com)
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
 // @include     https://*.instructure.com/courses/*/gradebook/speed_grader*
 // @version     1
-// @grant       none
 // ==/UserScript==
 (function() {
   'use strict';
